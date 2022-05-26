@@ -1,0 +1,49 @@
+main::before{
+    content: "";
+}
+main{
+    background-color:$background3 ;
+
+}
+.pokeBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-inline: 3vw;
+   
+
+    
+    .poki{
+        height: fit-content;
+        width: 17%;
+        min-width: 190px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: solid 3px;
+        border-radius: 5px;
+        margin: 20px 13px;
+        padding: 10px;
+        background-color: $background2;
+        background-image: url("../../assets/framee.png");
+        background-size:contain;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 8px;
+        text-transform: capitalize;
+
+        & h2 {
+            margin-top: 10px;
+        }
+
+        & img{
+            width: 140px;
+        }
+    }
+    .poki:hover{
+        position: relative;
+        transform: scale(1.1);
+    }
+    
+}

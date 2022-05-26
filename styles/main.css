@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+header {
+  background-color: #c2cfa1;
+}
+
+.navigator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 320px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navigator .ash {
+  height: 220px;
+  width: 300px;
+}
+
+.navigator .ash img {
+  height: 180px;
+}
+
+.navigator .ashizq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  top: 65px;
+}
+
+.navigator .ashizq .ashh {
+  position: relative;
+  top: 10px;
+}
+
+.navigator .ashizq .ashhh {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: 60px;
+}
+
+.navigator .ashizq .ashtext .fight {
+  width: 350px;
+  height: 70px;
+  position: relative;
+  bottom: 50px;
+  left: 30px;
+}
+
+.navigator .ashdere {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  bottom: 65px;
+  right: 3px;
+}
+
+.navigator .ashdere img {
+  height: 160px;
+}
+
+.navigator .center {
+  height: 100px;
+  position: relative;
+  bottom: 30px;
+}
+
+.navigator .center img {
+  width: 250px;
+}
+
+.navigator .center .typess > img {
+  width: 25px;
+}
+
+.navigator .center .buscador > input {
+  width: 250px;
+  font-family: 'Press Start 2P', cursive;
+  height: 20px;
+  background-color: #fff0c3;
+}
+
+main::before {
+  content: "";
+}
+
+main {
+  background-color: #fff0c3;
+}
+
+.pokeBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-inline: 3vw;
+}
+
+.pokeBody .poki {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 17%;
+  min-width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid 3px;
+  border-radius: 5px;
+  margin: 20px 13px;
+  padding: 10px;
+  background-color: #dadcd6;
+  background-image: url("../../assets/framee.png");
+  background-size: contain;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+  text-transform: capitalize;
+}
+
+.pokeBody .poki h2 {
+  margin-top: 10px;
+}
+
+.pokeBody .poki img {
+  width: 140px;
+}
+
+.pokeBody .poki:hover {
+  position: relative;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=main.css.map */
